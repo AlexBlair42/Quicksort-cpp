@@ -4,6 +4,15 @@
 #include "stdlib.h"
 using namespace std;
 std::vector<int> v1;
+
+void quicksort()
+{
+    for (int i = 0; i < size; i++)
+    {
+        
+    }
+}
+
 int main()
 {
     srand(time(NULL));
