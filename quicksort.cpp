@@ -7,7 +7,7 @@ std::vector<int> v1;
 int main()
 {
     srand(time(NULL));
-    int numbers = rand() % 100 +1;
+    
     int size;
     cout << "Please enter the size of the array of integers" << endl;
     cin >> size;
@@ -15,12 +15,10 @@ int main()
 
     for (int i = 0; i < size; i++)
     {
+        int numbers = rand() % 100;
         v1.push_back(numbers);
+        cout << v1[i] << endl;
     }
-    for (int j = 0; j < v1.size(); j++)
-    {
-        cout << v1[j] << " ";
-    }
-
+    
     cin.get();
 }
