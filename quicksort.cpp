@@ -5,24 +5,17 @@
 using namespace std;
 std::vector<int> v1;
 
-void quicksort()
-{
-    for (int i = 0; i < size; i++)
-    {
-        
-    }
-}
-
+void quicksort();
+int siz = 0;
 int main()
 {
     srand(time(NULL));
     
-    int size;
     cout << "Please enter the size of the array of integers" << endl;
-    cin >> size;
-    v1.reserve(size);
+    cin >> siz;
+    v1.reserve(siz);
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < siz; i++)
     {
         int numbers = rand() % 100;
         v1.push_back(numbers);
@@ -30,4 +23,12 @@ int main()
     }
     
     cin.get();
+}
+
+void quicksort()
+{
+    for (int i = 0; i < siz; i++)
+    {
+        
+    }
 }
