@@ -3,8 +3,8 @@
 #include "time.h"
 #include "stdlib.h"
 using namespace std;
-std::vector<int> v1;
-
+int unsorted[];
+int sorted[];
 void quicksort();
 int siz = 0;
 int main()
@@ -13,12 +13,12 @@ int main()
     
     cout << "Please enter the size of the array of integers" << endl;
     cin >> siz;
-    v1.reserve(siz);
+    unsorted[siz];
 
     for (int i = 0; i < siz; i++)
     {
         int numbers = rand() % 100;
-        v1.push_back(numbers);
+        
         cout << v1[i] << endl;
     }
     
@@ -29,6 +29,6 @@ void quicksort()
 {
     for (int i = 0; i < siz; i++)
     {
-        
+
     }
 }
